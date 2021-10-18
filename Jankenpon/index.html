@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link 
+        rel="shortcut icon" 
+        href="https://www.gstatic.com/devrel-devsite/prod/v7d29b723aef4d149fe98fb5331f45df163ead31f4cb33149234e59d978e54b1e/developers/images/favicon.png"
+        />
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Google Student Development Club | Jankenpon</title>
+    </head>
+
+    <body>
+        <div class="janken-option" id="title-pemain">
+            <div class="title-janken-pemain">
+                <h1>Pilihan Pemain:</h1>
+            </div>
+
+            <div class="main-pilihan-pemain-img">
+                <img src="image/Pokeball.png" id="logo-pilihan-pemain"/>
+            </div>
+
+            <div class="pilihan-pemain">
+                <button id="button-charmander" onclick="handleClick('Charmander')">
+                    <div class="button-items-container">
+                        <div class="button-img">
+                            <img src="./image/Charmander.png">
+                        </div>
+    
+                        <div class="button-text">
+                            <p>Charmander</p>
+                        </div>
+                    </div>
+                </button>
+
+                <button id="button-bulbasaur" onclick="handleClick('Bulbasaur')">
+                    <div class="button-items-container">
+                        <div class="button-img">
+                            <img src="./image/Bulbasaur.png">
+                        </div>
+                        
+                        <div class="button-text">
+                            <p>Bulbasaur</p>
+                        </div>
+                    </div>
+                </button>
+
+                <button id="button-squirtle" onclick="handleClick('Squirtle')">
+                    <div class="button-items-container">
+                        <div class="button-img">
+                            <img src="./image/Squirtle.png">
+                        </div>
+                    
+                        <div class="button-text">
+                            <p>Squirtle</p>
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+
+        <div class="janken-option" id="title-opponent">
+            <div class="title-janken-opponent">
+                <h1>Pilihan Lawan:</h1>
+            </div>
+
+            <div class="main-pilihan-pemain-img">
+                <img src="image/Pokeball.png" id="logo-pilihan-opponent">
+            </div>
+        </div>
+
+        <div class="janken-option">
+            <h1 id="result"></h1>
+        </div>
+    </body>
+    <script src="js/main.js"></script>
+</html>
