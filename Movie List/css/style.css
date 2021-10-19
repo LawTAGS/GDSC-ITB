@@ -1,0 +1,16 @@
+/* Nav Bar */
+.nav-bar {
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    border: 0px;
+    background-color: transparent;
+}
+
+.nav-button img{
+    height: 24px;
+    width: 24px;
+    margin: 8px;
+}
